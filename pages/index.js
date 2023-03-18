@@ -1,3 +1,5 @@
+import Banner from '@/components/banner/banner'
+import Nav from '@/components/header/navber'
 import TopHeader from '@/components/header/top-header'
 import Head from 'next/head'
 
@@ -12,6 +14,8 @@ export default function Home() {
       </Head>
       <main className="">
         <TopHeader />
+        <Banner />
+        <Nav />
         <h1 className="text-4xl font-bold">Alpona Jewlry</h1>
       </main>
     </>
