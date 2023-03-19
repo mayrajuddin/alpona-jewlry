@@ -1,6 +1,8 @@
 import Banner from '@/components/banner/banner'
+import ChooseUs from '@/components/chooseUs/chooseUs'
 import Nav from '@/components/header/navber'
 import TopHeader from '@/components/header/top-header'
+import Tranding from '@/components/tranding/tranding'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,11 +14,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="">
+      <main>
         <TopHeader />
         <Banner />
         <Nav />
-        <h1 className="text-4xl font-bold">Alpona Jewlry</h1>
+        <ChooseUs />
+        <Tranding />
       </main>
     </>
   )
