@@ -1,6 +1,6 @@
 export default function Nav() {
     return (
-        <div className="navbar text-base-100 bg-[#6F6877] border-b ">
+        <div className="navbar text-base-100 bg-[#6F6877] border-b  sticky top-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -14,8 +14,8 @@ export default function Nav() {
                                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
                             </a>
                             <ul className="p-2">
-                                <li><a className="hover:text-[#FFC8A8] duration-500 bg-transparent">Submenu 1</a></li>
-                                <li><a className="hover:text-[#FFC8A8] duration-500 bg-transparent">Submenu 2</a></li>
+                                <li><a className="hover:text-[#FFAC9A] duration-500 bg-transparent">Submenu 1</a></li>
+                                <li><a className="hover:text-[#FFAC9A] duration-500 bg-transparent">Submenu 2</a></li>
                             </ul>
                         </li>
                         <li><a>Item 3</a></li>
@@ -25,9 +25,9 @@ export default function Nav() {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a className="hover:text-[#FFC8A8] duration-500 bg-transparent">Item 1</a></li>
-                    <li><a className="hover:text-[#FFC8A8] duration-500 bg-transparent">Item 2</a></li>
-                    <li><a className="hover:text-[#FFC8A8] duration-500 bg-transparent">Item 3</a></li>
+                    <li><a className="hover:text-[#FFAC9A] duration-500 bg-transparent">Item 1</a></li>
+                    <li><a className="hover:text-[#FFAC9A] duration-500 bg-transparent">Item 2</a></li>
+                    <li><a className="hover:text-[#FFAC9A] duration-500 bg-transparent">Item 3</a></li>
                 </ul>
             </div>
             <div className="navbar-end">

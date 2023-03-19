@@ -1,5 +1,6 @@
 import Banner from '@/components/banner/banner'
 import ChooseUs from '@/components/chooseUs/chooseUs'
+import Footer from '@/components/footer/footer'
 import Nav from '@/components/header/navber'
 import TopHeader from '@/components/header/top-header'
 import Tranding from '@/components/tranding/tranding'
@@ -20,6 +21,7 @@ export default function Home() {
         <Nav />
         <ChooseUs />
         <Tranding />
+        <Footer />
       </main>
     </>
   )

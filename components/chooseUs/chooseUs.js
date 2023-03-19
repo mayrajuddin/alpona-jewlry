@@ -3,7 +3,7 @@ import { GiHeartEarrings } from 'react-icons/gi';
 import { IoIosFlash } from 'react-icons/io';
 export default function ChooseUs() {
     return (
-        <div className="py-9">
+        <div className="py-20">
             <div className="container mx-auto">
                 <div className="text-center">
                     <span className='uppercase text-sm'>highlight</span>
