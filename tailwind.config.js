@@ -9,6 +9,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    mytheme: {
+      prime: "#C97F5F",
+      darkish: "#3C3836",
+    },
     extend: {},
     fontFamily: {
       rubik: ['Rubik']

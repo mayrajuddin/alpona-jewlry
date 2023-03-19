@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 export default function Slider({ content }) {
     return (
         <Swiper
-            slidesPerView={2}
-            spaceBetween={10}
+            slidesPerView={1}
+            spaceBetween={20}
             pagination={{
                 clickable: true,
                 dynamicBullets: true,

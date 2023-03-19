@@ -3,6 +3,7 @@ import ChooseUs from '@/components/chooseUs/chooseUs'
 import Footer from '@/components/footer/footer'
 import Nav from '@/components/header/navber'
 import TopHeader from '@/components/header/top-header'
+import Newsletter from '@/components/newsletter/newsletter'
 import Tranding from '@/components/tranding/tranding'
 import Head from 'next/head'
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Nav />
         <ChooseUs />
         <Tranding />
+        <Newsletter />
         <Footer />
       </main>
     </>

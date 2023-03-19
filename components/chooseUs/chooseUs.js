@@ -7,7 +7,7 @@ export default function ChooseUs() {
             <div className="container mx-auto">
                 <div className="text-center">
                     <span className='uppercase text-sm'>highlight</span>
-                    <h3 className="text-3xl capitalize py-4">why you choose us</h3>
+                    <h3 className="text-3xl capitalize py-4 ">why you choose us</h3>
                 </div>
                 <div className="flex justify-between gap-6 w-10/12 mx-auto mt-8">
                     {

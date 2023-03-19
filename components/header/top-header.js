@@ -13,21 +13,21 @@ export default function TopHeader() {
                     <div className="">
                         <ul className='menu-horizontal items-center capitalize'>
                             <li className="inline-block mr-3">
-                                <a href="#" className="hover:text-[#FFC8A8] duration-500">
+                                <a href="#" className="hover:text-[#C97F5F] duration-500">
                                     <span> <BsSuitHeart className='inline mr-1' size={14} /> </span>wishlist
                                 </a>
                                 <span className='mr-2'> |</span>
                             </li>
                             <li>
                                 <div className="dropdown dropdown-hover dropdown-end py-2 text-sm">
-                                    <label tabindex="0" className="cursor-pointer hover:text-[#FFC8A8] duration-500">
+                                    <label tabindex="0" className="cursor-pointer hover:text-[#C97F5F] duration-500">
                                         My Account
                                         <span><RiArrowDownSLine className='inline ml-1' /></span>
                                     </label>
                                     <ul tabindex="0" className="dropdown-content menu p-2 shadow bg-base-100 rounded-md w-52 capitalize">
-                                        <li><a className='w-full hover:text-[#FFC8A8] duration-500 bg-transparent'>profile</a></li>
-                                        <li><a className='w-full hover:text-[#FFC8A8] duration-500 bg-transparent'>Cart</a></li>
-                                        <li><a className='w-full hover:text-[#FFC8A8] duration-500 bg-transparent'>Logout</a></li>
+                                        <li><a className='w-full hover:text-[#C97F5F] duration-500 bg-transparent'>profile</a></li>
+                                        <li><a className='w-full hover:text-[#C97F5F] duration-500 bg-transparent'>Cart</a></li>
+                                        <li><a className='w-full hover:text-[#C97F5F] duration-500 bg-transparent'>Logout</a></li>
                                     </ul>
                                 </div>
                             </li>
