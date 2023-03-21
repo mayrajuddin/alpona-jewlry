@@ -31,12 +31,12 @@ const chooseContent = [
         Icon: SlDiamond
     },
     {
-        title: "Nurturing community",
+        title: "LOVE YOUR LAYERS",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,",
         Icon: GiHeartEarrings
     },
     {
-        title: "Nurturing community",
+        title: "FUELING CREATIVITY",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,",
         Icon: IoIosFlash
     },

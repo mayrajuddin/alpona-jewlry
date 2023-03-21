@@ -3,7 +3,7 @@
 export default function Nav() {
 
     return (
-        <div className={` navbar text-base-100 bg-black bg-opacity-50 border-b  sticky top-0 justify-center`}>
+        <div className={` navbar text-base-100 bg-black bg-opacity-50 border-b  sticky top-0 justify-center z-50`}>
             <div className="">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -24,13 +24,15 @@ export default function Nav() {
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost hover:bg-transparent font-rubik text-xl capitalize">alpona jewlry</a>
+                <a className="btn btn-ghost hover:bg-transparent font-rubik text-xl capitalize">alpona</a>
             </div>
             <div className=" hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><a className=" duration-500 bg-transparent">Item 1</a></li>
-                    <li><a className=" duration-500 bg-transparent">Item 2</a></li>
-                    <li><a className=" duration-500 bg-transparent">Item 3</a></li>
+                <ul className="menu menu-horizontal px-1 capitalize">
+                    <li><a className=" duration-500 bg-transparent">Home</a></li>
+                    <li><a className=" duration-500 bg-transparent">shop</a></li>
+                    <li><a className=" duration-500 bg-transparent">blog</a></li>
+                    <li><a className=" duration-500 bg-transparent">about us</a></li>
+                    <li><a className=" duration-500 bg-transparent">contact us</a></li>
                 </ul>
             </div>
         </div>
