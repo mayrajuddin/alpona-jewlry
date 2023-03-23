@@ -1,0 +1,19 @@
+.navLink a {
+    position: relative;
+}
+
+.navLink a::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    background: #FFAC9A;
+    transition: width 0.5s;
+}
+
+.navLink a:hover::after {
+    width: 80%;
+}

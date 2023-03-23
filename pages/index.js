@@ -21,8 +21,8 @@ export default function Home() {
         <TopHeader />
         <Banner />
         <Nav />
-        <ChooseUs />
         <Categories />
+        <ChooseUs />
         <Tranding />
         <Newsletter />
         <Footer />

@@ -20,15 +20,16 @@ export default function Slider({ content }) {
             {
                 content.map((slides) => (
                     <SwiperSlide key={slides.image} >
-                        <div className="">
+                        <div className={`${Styles.slidesContent} relative`}>
                             <img src={slides.image} alt="" className='w-full h-[680px] relative' />
-                            <div className="absolute top-1/2 left-10">
-                                <p>{slides.Title}</p>
+                            <div className="w-1/2 text-white absolute top-1/2 left-10 -translate-y-1/2 z-10">
+                                <h1 className='text-3xl capitalize py-3'>THE LONGEST SERVING JEWELLER IN THE BANGLADESH</h1>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, deleniti voluptas maxime distinctio commodi, praesentium aliquid alias cumque nulla officia eius ex recusandae.</p>
+                                <a href="" className='border border-[#FFAC9A] p-4 mt-3 inline-block rounded-sm uppercase hover:bg-[#FFAC9A] duration-500 '>shop now</a>
                             </div>
                         </div>
                     </SwiperSlide>
                 ))
-
             }
         </Swiper>
     )
