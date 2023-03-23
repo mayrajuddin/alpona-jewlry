@@ -8,9 +8,9 @@
     width: 0%;
     height: 2px;
     z-index: 1;
-    left: 0;
+    left: 10px;
     bottom: 0;
-    background: #FFAC9A;
+    background: #C97F5F;
     transition: width 0.5s;
 }
 
