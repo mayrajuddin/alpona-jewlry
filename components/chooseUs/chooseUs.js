@@ -1,10 +1,18 @@
 import { SlDiamond } from 'react-icons/sl';
 import { GiHeartEarrings } from 'react-icons/gi';
 import { IoIosFlash } from 'react-icons/io';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 export default function ChooseUs() {
+    useEffect(() => {
+        Aos.init();
+    }, [])
     return (
         <div className="py-20">
-            <div className="container mx-auto">
+            <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="700"
+                data-aos-easing="ease-in-out"
+                className="container mx-auto">
                 <div className="text-center">
                     <span className='uppercase text-sm'>highlight</span>
                     <h3 className="text-3xl capitalize py-4 ">why you choose us</h3>

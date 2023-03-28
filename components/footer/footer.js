@@ -1,9 +1,19 @@
 import FotBottom from "./fotBottom";
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { useEffect } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 export default function Footer() {
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     return (
         <div className="bg-[#F5F5F5]">
-            <div className="container mx-auto">
+            <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="6000"
+                data-aos-easing="ease-in-out" className="container mx-auto">
                 <div className="py-9">
                     <div className="flex justify-between items-baseline gap-4">
                         <div className="w-2/12">
